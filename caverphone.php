@@ -6,7 +6,7 @@
 	 *
 	 * @author	Kip Hughes < kiphughes@gmail.com >
 	 * @param	string	$word	The word to be converted into Caverphone code
-	 * @return	string			The Caverphone code for the input word
+	 * @return	string		The Caverphone code for the input word
 	 * @see	http://caversham.otago.ac.nz/files/working/ctp150804.pdf
 	 */
 	function get_caverphone_code($word)
