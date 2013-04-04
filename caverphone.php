@@ -1,5 +1,5 @@
 <?php
-  /**
+	/**
 	 * The Caverphone is a phonetic algorithm (an algorithm to index words by their pronounciations) developed to
 	 * assist in data matching between late 19th century and early 20th century electoral rolls, optimized for
 	 * accents present in parts of New Zealand.
