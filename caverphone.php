@@ -28,7 +28,7 @@
 		$word = preg_replace('/^rough/', 'rou2f', $word);
 
 		// If the word "starts with tough", make it "tou2f"
-		$word = preg_replace('/^tough/', '2ou2f', $word);
+		$word = preg_replace('/^tough/', 'tou2f', $word);
 
 		// If the word "starts with enough", make it "enou2f"
 		$word = preg_replace('/^enough/', 'enou2f', $word);
@@ -188,8 +188,10 @@
 		$word = str_replace('3', '', $word);
 
 		// Put ten "1"s on the end
-		// Take the ﬁrst ten characters as the code
 		$word = str_pad($word, 10, '1');
+
+		// Take the ﬁrst ten characters as the code
+		$word = substr($word, 0, 10);
 
 		return $word;
 	}
